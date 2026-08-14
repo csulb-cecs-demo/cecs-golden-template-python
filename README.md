@@ -14,14 +14,17 @@ autograder and the CI both depend on it.
 
 ## Start here
 
-Never set up an autograder before? Start with
-**[docs/getting-started.md](docs/getting-started.md)**. It goes from zero to a
-verified working assignment and assumes no prior experience.
+Never set up an autograder before? Start with the
+**[Web UI](docs/getting-started-web.md)** or
+**[CLI](docs/getting-started.md)** getting-started guide. Both go from zero to
+a verified working assignment and assume no prior experience.
 
 | Guide | For |
 |---|---|
-| [Getting started](docs/getting-started.md) | First-time setup, end to end |
-| [Writing tests](docs/writing-tests.md) | Test types, weighting, traps |
+| [Getting started with the Web UI](docs/getting-started-web.md) | First-time setup in the browser, end to end |
+| [Getting started with the CLI](docs/getting-started.md) | The same path using `gh teacher` and `gh student` |
+| [Writing tests with the Web UI](docs/writing-tests-web.md) | Test types, weighting, and traps in the assignment form |
+| [Writing tests with the CLI](docs/writing-tests.md) | The same grading model using `gh teacher` and JSON specs |
 | [Troubleshooting](docs/troubleshooting.md) | Symptom → diagnosis → fix |
 | [Performance sanity check](perf/README.md) | Load testing: when to enable it, and what it does not test |
 | [Governance](docs/governance.md) | The recommended baseline (advisory, not mandatory), and what is entirely yours |

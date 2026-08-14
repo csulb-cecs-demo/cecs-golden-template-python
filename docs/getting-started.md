@@ -1,4 +1,4 @@
-# Getting started — your first autograded assignment
+# Getting started with the CLI — your first autograded assignment
 
 For faculty who have never set up an autograder. No prior GitHub Classroom
 experience assumed. Budget about 45 minutes the first time; subsequent
@@ -8,6 +8,8 @@ By the end you will have a real assignment that students can accept, and you
 will have **proved** it grades correctly rather than assumed it.
 
 > [!TIP]
+> Prefer the browser? Use [Getting started with the Web UI](getting-started-web.md).
+>
 > Already know Classroom 50? You want the
 > [CLI Teacher Guide](https://github.com/foundation50/classroom50/wiki/CLI-Teacher-Guide)
 > instead. This is the ground-up version.
@@ -236,7 +238,8 @@ automatically: 9 of 12 passing scores 9. The 1-point import test exists so
 that a broken import is reported as "your module doesn't import" instead of
 twelve confusing downstream errors.
 
-Full detail on test types and weighting: **[Writing tests](writing-tests.md)**.
+Full detail on test types and weighting:
+**[Writing tests with the CLI](writing-tests.md)**.
 
 ---
 
@@ -300,7 +303,7 @@ with the org selected and re-run `gh teacher init`.
 
 | You want to | Read |
 |---|---|
-| Write more interesting tests | [Writing tests](writing-tests.md) |
+| Write more interesting tests | [Writing tests with the CLI](writing-tests.md) |
 | Diagnose something broken | [Troubleshooting](troubleshooting.md) |
 | Adapt this template to your course | [Template README](../README.md) |
 | Look up a `gh teacher` command | [CLI Teacher Guide](https://github.com/foundation50/classroom50/wiki/CLI-Teacher-Guide) |

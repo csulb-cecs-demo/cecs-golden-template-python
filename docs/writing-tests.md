@@ -1,8 +1,13 @@
-# Writing tests
+# Writing tests with the CLI
 
-How to express "is this submission correct?" as a declarative `tests` block.
+How to express "is this submission correct?" as a declarative `tests` block
+with `gh teacher`.
 
-Assumes you've been through [Getting started](getting-started.md).
+Assumes you've been through [Getting started with the CLI](getting-started.md).
+
+> [!TIP]
+> Prefer the browser? Use
+> [Writing tests with the Web UI](writing-tests-web.md).
 
 ---
 
@@ -175,9 +180,10 @@ nothing. Occasionally what you want; usually not.
 **The default timeout is 10 seconds.** Anything doing `pip install` needs more.
 A timeout reads to students as a wrong answer.
 
-**Tests run in a fresh container per submission.** No network guarantees beyond
-package installs, no persistence between tests, no clock or randomness without a
-fixed seed. A flaky test is a grade appeal.
+**Each submission starts in a fresh grading environment.** Files and installed
+packages persist between commands in that submission; shell state does not.
+There are no network guarantees beyond package installs, and no clock or
+randomness without a fixed seed. A flaky test is a grade appeal.
 
 > [!CAUTION]
 > **Never put secrets in a test command.** These run inside the student's repo,
@@ -410,4 +416,4 @@ read as guilt.
 > Whatever you wrote, **push a deliberately wrong submission and confirm it
 > comes back red.** A green run is exactly what an assignment with no tests at
 > all produces.
-> See [Getting started, step 7](getting-started.md#step-7--prove-it-actually-grades).
+> See [Getting started with the CLI, step 7](getting-started.md#step-7--prove-it-actually-grades).

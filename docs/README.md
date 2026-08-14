@@ -8,8 +8,10 @@ the surrounding system.
 
 | Guide | For | Time |
 |---|---|---|
-| **[Getting started](getting-started.md)** | Never set up an autograder. Zero to a verified, working assignment. | ~45 min first time |
-| **[Writing tests](writing-tests.md)** | Expressing "is this correct?" as a `tests` block. Test types, weighting, traps, and the opt-in portable spec. | ~20 min |
+| **[Getting started with the Web UI](getting-started-web.md)** | Never set up an autograder. Zero to a verified, working assignment in the browser. | ~45 min first time |
+| **[Getting started with the CLI](getting-started.md)** | The same path using `gh teacher` and `gh student`. | ~45 min first time |
+| **[Writing tests with the Web UI](writing-tests-web.md)** | Building and weighting tests in the assignment form, plus advanced and portable options. | ~20 min |
+| **[Writing tests with the CLI](writing-tests.md)** | The same grading model using `gh teacher` and JSON specs. | ~20 min |
 | **[Troubleshooting](troubleshooting.md)** | Something is broken. Symptom → diagnosis → fix. | as needed |
 | **[Governance](governance.md)** | Adapting the template for your course. The recommended baseline is advisory; nothing here is mandatory. | ~10 min |
 | **[Performance sanity check](../perf/README.md)** | Load testing a service-building assignment. Opt-in. | ~10 min |
@@ -31,6 +33,7 @@ the surrounding system.
 Classroom 50 itself is documented at
 [foundation50/classroom50](https://github.com/foundation50/classroom50/wiki):
 [Installation](https://github.com/foundation50/classroom50/wiki/Installation),
+[Web Teacher Guide](https://github.com/foundation50/classroom50/wiki/Web-Teacher-Guide),
 [CLI Teacher Guide](https://github.com/foundation50/classroom50/wiki/CLI-Teacher-Guide),
 [Autograders](https://github.com/foundation50/classroom50/wiki/Autograders).
 These guides cover the parts that wiki assumes you already know, plus the

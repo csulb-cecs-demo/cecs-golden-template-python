@@ -82,7 +82,8 @@ template started with.
 2. Replace `src/`, `tests/`, and `docs/assignment.md` with your content.
 3. Keep or rewrite `VERIFICATION-LOG.md` as suits your course.
 4. Push. The self-check reports what drifted. **It will not fail your build.**
-5. Wire up grading. See [Getting started](getting-started.md).
+5. Wire up grading. See Getting started with the
+   [Web UI](getting-started-web.md) or the [CLI](getting-started.md).
 
 Run it yourself any time:
 
